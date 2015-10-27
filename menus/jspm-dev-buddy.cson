@@ -1,0 +1,22 @@
+# See https://atom.io/docs/latest/hacking-atom-package-word-count#menus for more details
+'context-menu':
+  'atom-text-editor': [
+    {
+      'label': 'Toggle jspm-dev-buddy'
+      'command': 'jspm-dev-buddy:start'
+    }
+  ]
+'menu': [
+  {
+    'label': 'Packages'
+    'submenu': [
+      'label': 'jspm-dev-buddy'
+      'submenu': [
+        {
+          'label': 'Toggle'
+          'command': 'jspm-dev-buddy:start'
+        }
+      ]
+    ]
+  }
+]
