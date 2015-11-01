@@ -1,7 +1,7 @@
 {
   "name": "jspm-dev-buddy",
   "main": "./lib/jspm-dev-buddy",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "helps by emitting file changed events and makes navigation trivial when error occurs in the browser",
   "keywords": [],
   "activationCommands": {},
@@ -12,6 +12,9 @@
   },
   "dependencies": {
     "atom-space-pen-views": "^2.1.0",
+    "react": "^0.14.1",
+    "react-dom": "^0.14.1",
+    "react-observe-store": "^0.2.3",
     "socket.io": "^1.3.7"
   },
   "devDependencies": {
