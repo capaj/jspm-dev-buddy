@@ -3,9 +3,15 @@
   "main": "./lib/jspm-dev-buddy",
   "version": "0.1.0",
   "description": "helps by emitting file changed events and makes navigation trivial when error occurs in the browser",
-  "keywords": [],
+  "keywords": [
+    "jspm",
+    "hot-reload",
+    "babel",
+    "socket.io",
+    "change emitter"
+  ],
   "activationCommands": {},
-  "repository": "https://github.com/atom/jspm-dev-buddy",
+  "repository": "https://github.com/capaj/jspm-dev-buddy",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
