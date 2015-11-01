@@ -1,7 +1,7 @@
 {
   "name": "jspm-dev-buddy",
   "main": "./lib/jspm-dev-buddy",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "helps by emitting file changed events and makes navigation trivial when error occurs in the browser",
   "keywords": [
     "jspm",
